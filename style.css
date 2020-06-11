@@ -14,10 +14,17 @@ fieldset {
     border: 1px dotted gray;
     margin-bottom: var(--base-size);
     font-variant-caps: all-small-caps;
+
 }
 
 fieldset label {
     font-variant-caps: normal;
+
+}
+
+body {
+    background-color: rgb(205, 195, 102);
+
 }
 
 input {
@@ -25,8 +32,11 @@ input {
 }
 
 button {
+    background-color: aqua;
 
 }
+
+
 
 .grid {
     display: table;
@@ -44,6 +54,8 @@ button {
 
 .row {
     display: flex;
+
+
 }
 
 .cell {
@@ -55,13 +67,23 @@ button {
     word-wrap: hidden;
     overflow: hidden;
     outline: 1px solid grey;
-    background: white;
+    background: antiquewhite;
 }
 
 .row:hover .cell {
-    background: lightgray;
+    background: lightsalmon;
 }
 
 .row .cell:hover {
     background: lightsteelblue;
+}
+
+.find-input {
+
+    background-color: lightsalmon;
+
+}
+
+.replace-input {
+    background-color: lightsalmon;
 }
