@@ -51,6 +51,10 @@ replaceAllButton.addEventListener("click", function () {
                 currentCellElement[innerIndex].innerHTML = newCurrentElement
             }
     }
+
+    findInput.value = ''
+    replaceInput.value = ''
+
 })
 
 
